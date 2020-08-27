@@ -4,8 +4,9 @@ module.exports = {
     "@semantic-release/release-notes-generator",
     ["@semantic-release/changelog", {
       "changelogFile": "CHANGELOG.md",
+    }],
+    ["@semantic-release/git", {
+      "assets": ["docs/CHANGELOG.md"]
     }]
-  ],
-  branch: 'development',
-  branches: ['development'],
+  ]
 };
