@@ -17,7 +17,6 @@
 interface ComponentMappingObject {
     [ key: string ]: any;
 }
-
 let instance: ComponentMappingImpl;
 
 /**
