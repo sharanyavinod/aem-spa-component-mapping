@@ -3,5 +3,6 @@ module.exports = {
     "@semantic-release/commit-analyzer",
     "@semantic-release/release-notes-generator"
   ],
-  branch: 'master'
+  branch: 'master',
+  branches: ['master', 'development']
 };
