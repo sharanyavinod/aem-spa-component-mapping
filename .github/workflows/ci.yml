@@ -26,7 +26,7 @@ jobs:
         with:
           name: coverage
           path: coverage
-release:
+  release:
     name: Release
     runs-on: ubuntu-latest
     steps:
